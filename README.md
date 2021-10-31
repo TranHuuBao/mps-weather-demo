@@ -48,3 +48,12 @@ Example on YARN:
 `spark-submit --master yarn --deploy-mode cluster --num-executors 2 --executor-cores 1 --executor-memory 1G --class mps.weather.CurrWeatherAgg --jars mps-weather-demo-assembly-0.1-deps.jar scala-2-12_2.12-0.1.0-SNAPSHOT.jar`
 
 You can see logs on master node of application
+
+
+
+## Output Example:
+`[2021-10-31T17:46:00Z:location: NewYork: is invalid; location: Paris, avg_temperature: 12, temperature_diff: 0, description: Clear; location: Tokyo, avg_temperature: 14, temperature_diff: 0, description: Clouds; location: HongKong, avg_temperature: 23, temperature_diff: 0, description: Rain; location: Singapore, avg_temperature: 25, temperature_diff: 0, description: Clouds; location: London, avg_temperature: 11, temperature_diff: 0, description: Clear; location: Seoul, avg_temperature: 9, temperature_diff: 0, description: Fog]`
+
+`[2021-10-31T17:46:10Z:location: Paris, avg_temperature: 12, temperature_diff: 0, description: Clear; location: NewYork: is invalid; location: HongKong, avg_temperature: 23, temperature_diff: 0, description: Rain; location: Tokyo, avg_temperature: 14, temperature_diff: 0, description: Clouds; location: Singapore, avg_temperature: 25, temperature_diff: 0, description: Clouds; location: London, avg_temperature: 11, temperature_diff: 0, description: Clear; location: Seoul, avg_temperature: 9, temperature_diff: 0, description: Fog]`
+
+
