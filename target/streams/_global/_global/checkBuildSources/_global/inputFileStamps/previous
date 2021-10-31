@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]",{"hashes":[["/Users/bao.tran/workspace/mps-weather-demo/build.sbt","526c4a99fa1f9509ee3c4ae1ec3bbb198ff7422d"],["/Users/bao.tran/workspace/mps-weather-demo/project/plugins.sbt","39b7b8b72b63b92a4540b22f172a717022002073"]],"lastModifiedTimes":[]}]

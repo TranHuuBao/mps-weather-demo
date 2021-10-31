@@ -1,0 +1,1 @@
+["mps.configs.AppConfig","mps.weather.CurrWeatherAgg","mps.weather.RestApiToKafka","mps.weather.Test"]

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: scalaj-http
+Implementation-Version: 2.4.2
+Specification-Vendor: org.scalaj
+Specification-Title: scalaj-http
+Implementation-Vendor-Id: org.scalaj
+Specification-Version: 2.4.2
+Implementation-Vendor: org.scalaj
+
